@@ -5,7 +5,9 @@ A PoD script can be easily written in any text editor and used on any network ca
 The following lines can be written using Notepad and later converted into a batch file by changing the file extension from .txt to .bat. 
 
 $ :loop
+
 $ ping <IP address/domain name> -l 65500 -w 1 -n 1
+
 $ goto :loop
 
 The usual ping command will send 4 packets of 32 bytes to the IP address with a slightly long timeout for each packet. 
